@@ -1,23 +1,23 @@
-#Hay dos archivos: principal.js y cursos.js
-#A. En el principal.js se divide en dos partes: 
-#	1. Informaci髇 de los cursos
-#	2. Inscripci髇 de un curso y creaci髇 de un archivo de texto con toda la 
-#	informaci髇 del aspirante y el curso de interes
-#B. En cursos.js
-#	1. Se encuentra toda la informaci髇 de un curso: c骴igo, nombre, duraci髇 y valor.
+Hay dos archivos: principal.js y cursos.js
+A. En el principal.js se divide en dos partes: 
+	1. Informaci贸n de los cursos
+	2. Inscripci贸n de un curso y creaci贸n de un archivo de texto con toda la 
+	informaci贸n del aspirante y el curso de interes
+B. En cursos.js
+	1. Se encuentra toda la informaci贸n de un curso: c贸digo, nombre, duraci贸n y valor.
 
-#Hay tres cursos con los siguientes c骴igos
-#curso1
-#-id 20130875
-#curso2
-#-id 20130876
-#curso3
-#-id 20130877
+Hay tres cursos con los siguientes c贸digos
+curso1
+-id 20130875
+curso2
+-id 20130876
+curso3
+-id 20130877
 
-#Para inscribir un curso ofertado:
-#principal inscribir --id 20130875 -n Maria -c 2353223 
-#principal inscribir --id 20130876 -n Daniel -c 443423 
-#principal inscribir --id 20130876 -n Sebastian -c 554654
+Para inscribir un curso ofertado:
+principal inscribir --id 20130875 -n Maria -c 2353223 
+principal inscribir --id 20130876 -n Daniel -c 443423 
+principal inscribir --id 20130876 -n Sebastian -c 554654
 
-#Para inscribir un curso no ofertado:
-#principal inscribir --id 2013 -n Maria -c 2353223 
+Para inscribir un curso no ofertado:
+principal inscribir --id 2013 -n Maria -c 2353223 
